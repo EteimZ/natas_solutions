@@ -9,7 +9,7 @@ try {
 
   let response = await axios.get(url, {auth: { username, password }});
   let result = response.data.match(pattern);
-  console.log(result[0]);
+  console.log(result[1]);
 
 } catch (e) {
     console.error(e);
