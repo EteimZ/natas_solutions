@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 let username = 'natas1',
-        password = 'gtVrDuiDfck831PqWsLEZy5gyDz1clto',
+        password = 'g9D9cREhslqBKtcA2uocGHPfMZVzeFK6',
         pattern = /<!--The password for natas2 is (.*) -->/,
         url = `http://${username}.natas.labs.overthewire.org`;
 
